@@ -1,0 +1,133 @@
+body{
+  background-image: url("Group.png");
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+input{
+  height: 25px;
+  width: 300px;
+  margin-left: 25px;
+  border-radius: 3px;
+
+
+}
+.pp{
+  color: white;
+  text-align: center;
+
+}
+label{
+  margin-left: 50px;
+ font-size: 30px;
+}
+.patients{
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: 187.5px 187.5px;
+
+}
+.Alles{
+  padding: 10px;
+grid-column: 1;
+}
+.Alles1{
+  padding: 10px;
+grid-row: 1;
+grid-column: 2;
+}
+.Alles2{
+  padding: 10px;
+grid-row: 2;
+grid-column: 2;
+}
+.Alles3{
+  padding: 10px;
+grid-row: 3;
+grid-column: 2;
+}
+.Circle{
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  margin-left: 38px;
+}
+
+#vink{
+  color: white;
+  width: 30px;
+
+  margin-left:115px;
+}
+
+.Login-p{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container{
+  flex-direction: column;
+  display: flex;
+
+}
+label{
+  color: white;
+}
+
+.psw{
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 95px;
+}
+#text{
+  color: white;
+  text-align: center;
+}
+#white{
+  color: white;
+  margin: 0;
+  font-size: 15px;
+}
+
+.container3{
+  text-align: center;
+  color: white
+
+}
+
+.img-bar{
+  display: flex;
+  justify-content: center;
+}
+.acc-img{
+  margin-top: 30px;
+  height: auto;
+  width: 40%;
+}
+.con{
+  display: flex;
+  justify-content: center;
+}
+.knop {
+
+  position: relative;
+  top: 140px;
+  border: none;
+  height: 55px;
+
+  width: 326px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  cursor: pointer;
+  color:
+           #fff;
+
+
+  background-color: #2196f3;
+}
